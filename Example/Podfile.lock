@@ -1,0 +1,16 @@
+PODS:
+  - SJToolsKit (0.1.0)
+
+DEPENDENCIES:
+  - SJToolsKit (from `../`)
+
+EXTERNAL SOURCES:
+  SJToolsKit:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  SJToolsKit: 85ff09c1898ee33371231dc5f2e27685802c8b76
+
+PODFILE CHECKSUM: 246549dc84a45a4a85b4b088d8b7df073bee5639
+
+COCOAPODS: 1.11.3

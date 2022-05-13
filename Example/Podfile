@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '9.0'
+
+target 'SJToolsKit_Example' do
+  pod 'SJToolsKit', :path => '../'
+
+  target 'SJToolsKit_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end

@@ -37,9 +37,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0CE2A21BBA733AFCF9C7023C /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		0CE2A21BBA733AFCF9C7023C /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		37ED8B762F70EBAA781A2910 /* Pods-SJToolsKit_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SJToolsKit_Tests.debug.xcconfig"; path = "Target Support Files/Pods-SJToolsKit_Tests/Pods-SJToolsKit_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		42ADB697E11A7453688C6DC7 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		42ADB697E11A7453688C6DC7 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		55DD047545867A50EF3B5CA7 /* Pods-SJToolsKit_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SJToolsKit_Example.release.xcconfig"; path = "Target Support Files/Pods-SJToolsKit_Example/Pods-SJToolsKit_Example.release.xcconfig"; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* SJToolsKit_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SJToolsKit_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -66,7 +66,7 @@
 		9C940C60B32C5900778E4061 /* Pods-SJToolsKit_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SJToolsKit_Tests.release.xcconfig"; path = "Target Support Files/Pods-SJToolsKit_Tests/Pods-SJToolsKit_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		B22C5616F0DAE132382A6272 /* Pods_SJToolsKit_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SJToolsKit_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		BD6E2FFCE1A73ABF50334339 /* Pods-SJToolsKit_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SJToolsKit_Example.debug.xcconfig"; path = "Target Support Files/Pods-SJToolsKit_Example/Pods-SJToolsKit_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		D45D0179A70758B3D8A2238C /* SJToolsKit.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = SJToolsKit.podspec; path = ../SJToolsKit.podspec; sourceTree = "<group>"; };
+		D45D0179A70758B3D8A2238C /* SJToolsKit.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = SJToolsKit.podspec; path = ../SJToolsKit.podspec; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,7 +103,6 @@
 				37ED8B762F70EBAA781A2910 /* Pods-SJToolsKit_Tests.debug.xcconfig */,
 				9C940C60B32C5900778E4061 /* Pods-SJToolsKit_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -258,6 +257,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -501,6 +501,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -517,6 +518,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
